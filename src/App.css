@@ -1,5 +1,12 @@
 .App {
+  font-family: Arial, sans-serif;
   text-align: center;
+  margin: 20px;
+}
+
+.node__label {
+  font-size: 12px;
+  color: #333;
 }
 
 .App-logo {
