@@ -1,70 +1,39 @@
-# Getting Started with Create React App
+## Tracer Tool
+- Tracer Tool is a visualization utility built using React, designed to help users visualize and understand the evaluation traces.
+- The tool focuses specifically on the Faithfulness metric, which measures the presence of hallucinations in generated answers.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Features
+- **Interactive Graphs**: Visualize the structure of evaluation logs with expandable branches and nodes.
+- **Side Panel Display**: Click on the last node in the graph to reveal detailed information about the entire LLM run in a side panel.
+- **User-Friendly Interface**: Clean and intuitive UI designed for ease of use.
 
-## Available Scripts
+## Technologies Used
+- React: For building the dynamic user interface.
+- Tailwind CSS: For styling the application.
 
-In the project directory, you can run:
+## Installation
 
-### `npm start`
+1. Clone the repository:
+`git clone https://github.com/yashjk/tracer-tool.git`
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+2. Navigate to the project directory:
+`cd tracer-tool`
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+3. Install the required dependencies:
+`npm install`
+or
+`yarn add`
 
-### `npm test`
+4. Start the development server:
+`npm start`
+or
+`yarn start`
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Usage
 
-### `npm run build`
+Once the development server is running, you can explore by opening the app in your browser at http://localhost:3000.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+- **Upload Evaluation Logs**: Use the file uploader to load your evaluation logs into the app.
+- **Explore the Graph**: The graph visually represents different runs as nodes. Click on any node to reveal its child nodes and delve deeper into the evaluation hierarchy.
+- **View Run Details**: Click on the last node in any branch to display detailed information about that specific run in the side panel.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
